@@ -3,7 +3,7 @@
 # Usage via Heroku:
     - For easier testing, I will run the seeds file while on Heroku to make a test account available.
         - There will be two test accounts
-            1. The user@example.com will have a search made so that it is possible to observe viewing previous forecasts.
+            1. The user@example.com will have two searches made so that it is possible to observe viewing previous forecasts.
             2. The guest@example.com will not have any searches made so it is possible to view the output when no searches have been made.
     - Normally I would not run the seeds file, but I will do so as this is a prototype application and this is is done
     for convenience.
@@ -33,9 +33,10 @@ my tests (these work in development mode).
 
 - I used the [Gritter gem](https://github.com/RobinBrouwer/gritter) which leverages a jQuery plugin to display notifications.
 
-- Kaminari was used for pagination of search and search results.
+- Kaminari was used for pagination of search history and the displaying of forecasts.
     - In addition to using Kaminari I used jQuery and JavaScript to implement
     [AJAX based pagination](https://rails.devcamp.com/ruby-gem-walkthroughs/view-template-tools/kaminari-pagination-example)
+    - This implementation leverages jQuery, AJAX, and JavaScript to assist with pagination.
 
 - I used the [Chartkick gem](https://github.com/ankane/chartkick) which produces JavaScript based charts
 
