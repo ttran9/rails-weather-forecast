@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="582598bc-4480-46de-9327-3048f1dd6dcc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/controllers/concerns/geocode_api_concern.rb" afterPath="$PROJECT_DIR$/app/controllers/concerns/geocode_api_concern.rb" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -23,91 +23,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="forecasts_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/forecasts_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parse_forecast_helper_concern.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/concerns/parse_forecast_helper_concern.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="geocode_api_concern.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="geocode_api_concern.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/concerns/geocode_api_concern.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+            <state relative-caret-position="504">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application_controller_renderer.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/application_controller_renderer.rb">
+      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="288">
+              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="assets.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
+      <file leaf-file-name="professor_e_gadd_1.ico" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/images/favicons/professor_e_gadd_1.ico">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cookies_serializer.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/cookies_serializer.rb">
+      <file leaf-file-name="notes_from_dissect_ruby_course.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Dropbox/rails_notes/notes_from_dissect_ruby_course.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="devise.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="229" column="13" lean-forward="false" selection-start-line="229" selection-start-column="13" selection-end-line="229" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="backtrace_silencers.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/backtrace_silencers.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="-546">
+              <caret line="817" column="105" lean-forward="false" selection-start-line="817" selection-start-column="98" selection-end-line="817" selection-end-column="105" />
               <folding />
             </state>
           </provider>
@@ -126,7 +73,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>project name</find>
       <find>copyright</find>
       <find>jquery</find>
       <find>warden</find>
@@ -156,6 +102,7 @@
       <find>&lt;%= render 'forecast'</find>
       <find>address</find>
       <find>heroku</find>
+      <find>favicon</find>
     </findStrings>
   </component>
   <component name="GeneratorOptions">
@@ -168,7 +115,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/views/forecasts/_search.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_alerts.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_nav.html.erb" />
         <option value="$PROJECT_DIR$/spec/models/search_result_spec.rb" />
@@ -218,6 +164,7 @@
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/concerns/geocode_api_concern.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -228,8 +175,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2381" />
-    <option name="y" value="310" />
+    <option name="x" value="2092" />
+    <option name="y" value="326" />
     <option name="width" value="1553" />
     <option name="height" value="1092" />
   </component>
@@ -265,6 +212,21 @@
               <item name="tt_weather_forecast" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tt_weather_forecast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tt_weather_forecast" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tt_weather_forecast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tt_weather_forecast" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="favicons" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tt_weather_forecast" type="b2602c69:ProjectViewProjectNode" />
@@ -382,7 +344,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DevcampPortfolio" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
@@ -390,6 +352,7 @@
       <recent name="$PROJECT_DIR$/app/views/static" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/images/favicons" />
       <recent name="$PROJECT_DIR$/app/assets/javascripts" />
       <recent name="$PROJECT_DIR$/app/views/forecasts" />
     </key>
@@ -534,15 +497,15 @@
       <workItem from="1513714782296" duration="23471000" />
       <workItem from="1513744010599" duration="133000" />
       <workItem from="1513744742673" duration="21536000" />
-      <workItem from="1513794395106" duration="30798000" />
+      <workItem from="1513794395106" duration="31238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183438000" />
+    <option name="totallyTimeSpent" value="183878000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2381" y="310" width="1553" height="1092" extended-state="0" />
+    <frame x="2092" y="326" width="1553" height="1092" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14294913" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -600,14 +563,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20171220102947_create_daily_forecasts.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20171220200249_remove_unused_columns_from_daily_forecasts.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -816,14 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/cable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -927,14 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Dropbox/rails_notes/notes_from_dissect_ruby_course.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="961" column="78" lean-forward="false" selection-start-line="961" selection-start-column="78" selection-end-line="961" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -951,14 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/backtrace_silencers.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -968,14 +899,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/cookies_serializer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/application_controller_renderer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1002,15 +925,52 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/concerns/parse_forecast_helper_concern.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/application_controller_renderer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/concerns/geocode_api_concern.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+        <state relative-caret-position="504">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Dropbox/rails_notes/notes_from_dissect_ruby_course.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-546">
+          <caret line="817" column="105" lean-forward="false" selection-start-line="817" selection-start-column="98" selection-end-line="817" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/favicons/professor_e_gadd_1.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
           <folding />
         </state>
       </provider>
