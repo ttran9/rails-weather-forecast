@@ -1,3 +1,4 @@
+require 'net/http'
 module GeocodeApiConcern
   extend ActiveSupport::Concern
 
