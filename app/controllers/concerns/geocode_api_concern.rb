@@ -1,4 +1,4 @@
-require 'net/http'
+require 'net/http' # this is necessary as Heroku does not natively have the Net:HTTP namespace.
 module GeocodeApiConcern
   extend ActiveSupport::Concern
 
