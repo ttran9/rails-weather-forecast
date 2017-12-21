@@ -1,0 +1,1 @@
+<%= column_chart @previous_forecasts[:hourly_forecasts].pluck(:formatted_time, :temperature), xtitle: "Date", ytitle: "Temperature (In Farenheit)" if @previous_forecasts[:hourly_forecasts] %>

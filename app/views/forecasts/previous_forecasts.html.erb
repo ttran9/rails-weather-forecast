@@ -1,0 +1,33 @@
+<% if @previous_forecasts[:hourly_forecasts]%>
+  <h1>You previously searched for the hourly forecast at: <%= @previous_forecasts[:address] %></h1>
+
+  <h1>
+    <%= link_to 'Previous Daily Forecast', forecasts_previous_forecasts_path(search_id: @previous_forecasts[:search_id],
+                                                                    type: "daily") %>
+  </h1>
+
+  <div id="previous_hourly_forecasts">
+    <%= render 'previous_hourly_forecast', collection: @previous_forecasts[:hourly_forecasts] %>
+  </div>
+
+  <div id="paginator">
+    <%= paginate @previous_forecasts[:hourly_forecasts], remote: true %>
+  </div>
+<% elsif @previous_forecasts[:daily_forecasts] %>
+  <h1>You previously searched for the daily forecast at: <%= @previous_forecasts[:address] %></h1>
+
+  <h1>
+    <%= link_to 'Previous Hourly Forecast', forecasts_previous_forecasts_path(search_id: @previous_forecasts[:search_id],
+                                                                                 type: "hourly") %>
+  </h1>
+
+  <div id="previous_daily_forecasts">
+    <%= render 'previous_daily_forecast', forecasts: @previous_forecasts[:daily_forecasts] %>
+  </div>
+
+  <div id="paginator">
+    <%= paginate @previous_forecasts[:daily_forecasts], remote: true %>
+  </div>
+<% else %>
+  <p><h1>No results can be found.</h1></p>
+<% end %>

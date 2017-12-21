@@ -1,0 +1,15 @@
+<%
+  paginatable_daily_forecast_low_temps = @forecast_variables[:paginatable_daily_forecast_low_temps]
+  paginatable_daily_forecast_high_temps = @forecast_variables[:paginatable_daily_forecast_high_temps]
+  hourly_forecast = @forecast_variables[:paginatable_hourly_forecast]
+%>
+<% if paginatable_daily_forecast_low_temps %>
+  $('#daily_forecasts').html('<%= escape_javascript render('daily_search_result', paginatable_daily_forecast_low_temps:
+  paginatable_daily_forecast_low_temps, paginatable_daily_forecast_high_temps: paginatable_daily_forecast_high_temps) %>');
+  $('#paginator').html('<%= escape_javascript(paginate(paginatable_daily_forecast_low_temps, remote: true).to_s) %>');
+<% elsif hourly_forecast %>
+  $('#hourly_forecasts').html('<%= escape_javascript render('hourly_search_result', paginatable_hourly_forecast: hourly_forecast) %>');
+  $('#paginator').html('<%= escape_javascript(paginate(hourly_forecast, remote: true).to_s) %>');
+<% end %>
+
+

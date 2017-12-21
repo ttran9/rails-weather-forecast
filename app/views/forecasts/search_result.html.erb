@@ -1,0 +1,49 @@
+<% if @result %>
+  <%
+    hourly_forecast = @forecast_variables[:paginatable_hourly_forecast]
+    forecast_flag = @forecast_variables[:forecast_flag]
+    paginatable_daily_forecast_low_temps = @forecast_variables[:paginatable_daily_forecast_low_temps]
+    paginatable_daily_forecast_high_temps = @forecast_variables[:paginatable_daily_forecast_high_temps]
+  %>
+
+  <% if forecast_flag == "hourly" %>
+    <div class ="container">
+      <p>
+      <h1>
+        <%= link_to 'View Daily Forecast', forecasts_search_result_path(lat: params[:lat],
+                                                                        lng: params[:lng],
+                                                                        type: "daily") %>
+      </h1>
+      </p>
+    </div>
+    <div id="hourly_forecasts">
+      <%= render 'hourly_search_result', paginatable_hourly_forecast: hourly_forecast %>
+    </div>
+
+    <div id="paginator">
+      <%= paginate hourly_forecast, remote: true %>
+    </div>
+  <% else %>
+    <div class ="container">
+      <p>
+      <h1>
+        <%= link_to 'View Hourly Forecast', forecasts_search_result_path(lat: params[:lat],
+                                                                         lng: params[:lng],
+                                                                         type: "hourly") %>
+      </h1>
+      </p>
+    </div>
+    <div id="daily_forecasts">
+      <%= render 'daily_search_result', paginatable_daily_forecast_low_temps: paginatable_daily_forecast_low_temps,
+                 paginatable_daily_forecast_high_temps: paginatable_daily_forecast_high_temps %>
+    </div>
+
+    <div id="paginator">
+      <%= paginate paginatable_daily_forecast_low_temps, remote: true %>
+    </div>
+  <% end %>
+
+<% else %>
+  <p>You did not enter an address for a search.</p>
+  <%= link_to 'Home', root_path, class: 'btn btn-lg btn-primary' %>
+<% end %>

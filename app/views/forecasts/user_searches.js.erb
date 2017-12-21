@@ -1,0 +1,2 @@
+$('#user_searches').html('<%= escape_javascript render('user_searches', collection: @user_searches) %>');
+$('#paginator').html('<%= escape_javascript(paginate(@user_searches, remote: true).to_s) %>');

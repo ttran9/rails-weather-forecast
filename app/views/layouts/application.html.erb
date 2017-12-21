@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%=@current_page_title ||= "Weather Forecast"%></title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= render 'shared/nav' %>
+    <div class="container separator-from-navbar">
+      <%= yield %>
+    </div>
+    <%= render 'shared/footer' %>
+    <%= render 'shared/alerts' %>
+  </body>
+</html>

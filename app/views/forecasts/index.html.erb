@@ -1,0 +1,12 @@
+<h3>Go to the home page to search for weather in a certain area</h3>
+<% if @forecasts %>
+  <div id="forecasts">
+    <%= render 'forecast', forecasts: @forecasts %>
+  </div>
+
+  <div id="paginator">
+    <%= paginate @forecasts, remote: true %>
+  </div>
+<% else %>
+  <p><h1>No available forecasts for sampling</h1></p>
+<% end %>

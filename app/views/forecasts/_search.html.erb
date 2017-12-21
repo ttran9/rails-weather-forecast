@@ -1,0 +1,11 @@
+<%= form_for @search, url: forecasts_search_result_path, method: :post, class: 'class="form-inline justify-content-center"' do |form| %>
+
+  <div class="form-group">
+    <%= form.text_field :address, class: 'form-control', length: 70  %>
+  </div>
+
+  <div class="text-center">
+    <%= form.submit 'Search', class: 'btn btn-lg btn-primary' %>
+  </div>
+
+<% end %>

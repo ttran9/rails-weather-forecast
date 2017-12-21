@@ -1,0 +1,7 @@
+<h1>Getting to home</h1>
+
+<h3> Below is a pie chart example! </h3>
+<%= column_chart  [[Time.at(1513422000).to_datetime, 48.07], [Time.at(1513425600).to_datetime, 48.88], [Time.at(1513429200).to_datetime, 52.05]], xtitle: "Date", ytitle: "Degrees (Farenheit)" %>
+
+<h4>Second chart</h4>
+<%= column_chart  [["z", 48.07], ["d", 48.88], ["a", 52.05]], xtitle: "Date", ytitle: "Degrees (Farenheit)" %>

@@ -1,0 +1,12 @@
+<%
+  previous_hourly_forecasts = @previous_forecasts[:hourly_forecasts]
+  previous_daily_forecasts = @previous_forecasts[:daily_forecasts]
+%>
+
+<% if previous_daily_forecasts %>
+  $('#previous_daily_forecasts').html('<%= escape_javascript render('previous_daily_forecast', collection: previous_daily_forecasts) %>');
+  $('#paginator').html('<%= escape_javascript(paginate(previous_daily_forecasts, remote: true).to_s) %>');
+<% elsif previous_hourly_forecasts %>
+  $('#previous_hourly_forecasts').html('<%= escape_javascript render('previous_hourly_forecast', collection: previous_hourly_forecasts) %>');
+  $('#paginator').html('<%= escape_javascript(paginate(previous_hourly_forecasts, remote: true).to_s) %>');
+<% end %>

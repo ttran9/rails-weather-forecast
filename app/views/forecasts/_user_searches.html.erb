@@ -1,0 +1,6 @@
+<% @user_searches.each do |user_search| %>
+  <tr>
+    <td><%= link_to "#{user_search.address}", forecasts_previous_forecasts_path(search_id: user_search.id) %></td>
+    <td><%=datetime_to_formatted_string user_search.created_at%></td>
+  </tr>
+<% end %>

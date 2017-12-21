@@ -1,0 +1,3 @@
+<%= column_chart @previous_forecasts[:daily_forecasts].pluck(:low_temperature_formatted_time, :low_temperature), xtitle: "Date", ytitle: "Low Temperature (In Farenheit)" if @previous_forecasts[:daily_forecasts] %>
+
+<%= column_chart @previous_forecasts[:daily_forecasts].pluck(:high_temperature_formatted_time, :high_temperature), xtitle: "Date", ytitle: "High Temperature (In Farenheit)" if @previous_forecasts[:daily_forecasts] %>

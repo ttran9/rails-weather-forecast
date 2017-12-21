@@ -1,0 +1,2 @@
+$('#forecasts').html('<%= escape_javascript render('forecast', forecasts: @forecasts) %>');
+$('#paginator').html('<%= escape_javascript(paginate(@forecasts, remote: true).to_s) %>');
