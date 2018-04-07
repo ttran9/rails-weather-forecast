@@ -17,3 +17,4 @@
 //= require chartkick
 //= require bootstrap
 //= require_tree .
+//= require bootstrap
