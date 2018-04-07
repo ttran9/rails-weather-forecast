@@ -11,12 +11,10 @@
 // about supported directives.
 //
 //= require jquery3
-//= require jquery_ujs
-//= require jquery-ui
+//= require popper
 //= require gritter
 //= require turbolinks
 //= require Chart.bundle
 //= require chartkick
 //= require_tree .
-//= require popper
 //= require bootstrap-sprockets
