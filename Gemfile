@@ -72,3 +72,5 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 
 ruby "2.5.8"
+
+gem 'sprockets', '~>3.7.2'
