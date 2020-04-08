@@ -65,7 +65,7 @@ gem 'bootstrap', '4.0.0.alpha6'
 gem 'gritter', '~> 1.2'
 
 # visualization library
-gem 'chartkick', '~> 2.2', '>= 2.2.5'
+gem 'chartkick', '~> 3.3'
 
 gem 'jquery-rails'
 
