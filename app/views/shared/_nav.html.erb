@@ -1,14 +1,14 @@
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded blog-nav">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target=
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=
       "#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label=
               "Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="container">
-    <span class="navbar-brand"><%= link_to 'Home', root_path, class: "nav-link"  %></span>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+      <%= link_to 'Home', root_path, class: "navbar-brand"  %>
+      <ul class="navbar-nav ml-auto">
         <%= nav_helper 'nav-link', 'li' %>
         <%= login_helper 'nav-link' %>
       </ul>
