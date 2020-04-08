@@ -17,12 +17,7 @@ module ApplicationHelper
 
   def nav_items
     # add items that any user can see.
-    nav_items = [
-        {
-            url: root_path,
-            title: 'Home'
-        }
-    ]
+    nav_items = []
     if current_user
       add_nav_items_for_logged_in_user nav_items # add items that only logged in users can see.
     end
