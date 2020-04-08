@@ -59,7 +59,7 @@ gem 'devise', '~> 4.7.1'
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
 
 # help with styling
-gem 'bootstrap', '4.0.0.alpha6'
+gem 'bootstrap', '4.3.1'
 
 # alerts
 gem 'gritter', '~> 1.2'
