@@ -83,7 +83,7 @@ gem 'rake', '~> 13.0', '>= 13.0.1'
 
 gem 'actionview', '~> 6.0', '>= 6.0.2.2'
 
-gem 'nokogiri', '~> 1.11.0.rc2'
+gem 'nokogiri', '~> 1.11.4'
 
 gem 'activejob', '~> 6.0', '>= 6.0.2.2'
 
