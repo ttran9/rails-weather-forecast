@@ -89,4 +89,4 @@ gem 'activejob', '~> 6.0', '>= 6.0.2.2'
 
 gem 'rails-html-sanitizer', '~> 1.3'
 
-gem 'loofah', '~> 2.5'
+gem 'loofah', '~> 2.19'
